@@ -12,7 +12,7 @@ This repository serves as a **central automation hub** that:
 - Maintains a list of RecruitEdge repositories in a single JSON file.
 - Automatically provisions Azure secrets (`Client ID`, `Tenant ID`, `Subscription ID`) to each listed repo.
 - Supports **Dev** and **Prod** environments based on the branch (`develop` or `master`).
-
+````
 ---
 
 ## 🔁 Flow Diagram
@@ -26,7 +26,7 @@ flowchart TD
     E --> F[Reads repo-list.json]
     F --> G[Pushes Azure Secrets to Target Repos]
     G --> H[Repos Ready for Deployment]
-````
+```
 
 ---
 
