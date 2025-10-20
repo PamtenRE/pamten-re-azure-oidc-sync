@@ -154,7 +154,7 @@ These secrets are used by the repo’s GitHub Actions to authenticate and deploy
 
 | Issue                                                      | Possible Cause                            | Fix                                                                       |
 | ---------------------------------------------------------- | ----------------------------------------- | ------------------------------------------------------------------------- |
-| Workflow not triggering                                    | Wrong branch or file not in `paths:` list | Push to `develop`/`master` and modify `repo-list.json`                    |
+| Workflow not triggering                                    | Wrong branch or file not in `paths:` list | Merge to `develop`/`master` from feature - modify `repo-list.json`        |
 | `jq: parse error`                                          | Invalid JSON (e.g., trailing commas)      | Validate JSON at [jsonlint.com](https://jsonlint.com)                     |
 | `ValueError: The public key must be exactly 32 bytes long` | Repo environment (dev/prod) not created   | Go to **Settings → Environments** → create `dev` and `prod`               |
 
