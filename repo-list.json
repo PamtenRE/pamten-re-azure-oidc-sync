@@ -1,8 +1,5 @@
 {
   "repos": [
-    "pamten-re-frontend-react",
-    "pamten-re-backend-python",
-    "pamten-re-backend-java",
-    "pamten-re-common-libs"
+    "pamten-re-frontend-react"
   ]
 }
