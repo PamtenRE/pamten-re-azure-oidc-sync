@@ -1,4 +1,3 @@
-```markdown
 # ⚙️ Pamten RecruitEdge — Azure Repo Access Automation
 
 > **Automates Azure secret provisioning for all RecruitEdge GitHub repositories**  
@@ -12,7 +11,7 @@ This repository serves as a **central automation hub** that:
 - Maintains a list of RecruitEdge repositories in a single JSON file.
 - Automatically provisions Azure secrets (`Client ID`, `Tenant ID`, `Subscription ID`) to each listed repo.
 - Supports **Dev** and **Prod** environments based on the branch (`develop` or `master`).
-```
+
 ---
 
 ## 🔁 Flow Diagram
